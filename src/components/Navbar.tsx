@@ -53,7 +53,7 @@ export const Navbar = ({
       </NavigationMenu>
       <div className="flex gap-5 justify-center items-center mx-4 lg:px-20 md:mx-16">
         <Avatar>
-          <AvatarImage src="https://avatars.githubusercontent.com/u/22791561?v=4" />
+          <AvatarImage src="https://avatars.githubusercontent.com/u/22791561?v=4" alt="Image of a handsome guy" />
           <AvatarFallback>MD</AvatarFallback>
         </Avatar>
         {/* The DarkModeSwitch library has bad accessibility - Added extra button to support keyboard */}
