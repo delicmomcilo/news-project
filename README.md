@@ -21,7 +21,7 @@ npm run build
 npm link
 ```
 
-**To link the new project with gishka-library locally**
+**Run the following inside news project**
 ```
 npm link gishka-library
 ```
