@@ -41,12 +41,7 @@ const News = () => {
             >
               <Card>
                 <Visibility visible={!!pictureUrl}>
-                  <img
-                    src={pictureUrl}
-                    alt={`${pictureData?.caption}`}
-                    loading="lazy"
-                    className="rounded-md object-cover"
-                  />
+                  <img src={pictureUrl} alt={`${pictureData?.caption}`} className="rounded-md object-cover" />
                   <CardContent className="text-left py-2">
                     <p className="text-sm dark:text-gray-400">{pictureData?.caption ?? ""}</p>
                   </CardContent>
