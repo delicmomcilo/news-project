@@ -8,7 +8,7 @@ import {
   Avatar,
   AvatarImage,
   AvatarFallback,
-} from "shadcn-ui-library-starter";
+} from "gishka-library";
 import { NavLink, useLocation } from "react-router-dom";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import { useFetchPortals } from "../../hooks/reactQuery/useFetchSlug";

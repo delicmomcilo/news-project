@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Navbar } from "../components/Navbar";
 import { useEffect, useState } from "react";
-import "shadcn-ui-library-starter/dist/style.css";
+import "gishka-library/dist/style.css";
 
 export const Layout = () => {
   const [isDarkMode, setDarkMode] = useState(() => {

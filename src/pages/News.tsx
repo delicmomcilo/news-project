@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import "shadcn-ui-library-starter/dist/style.css";
-import { Card, CardHeader, CardFooter, CardTitle, CardContent, badgeVariants } from "shadcn-ui-library-starter";
+import "gishka-library/dist/style.css";
+import { Card, CardHeader, CardFooter, CardTitle, CardContent, badgeVariants } from "gishka-library";
 import { useFetchSlug } from "../../hooks/reactQuery/useFetchSlug";
 import { cn, extractRelevantContentInfo, capitalizeFirstLetter } from "../utils/utils";
 import Visibility from "../components/Visibility";
